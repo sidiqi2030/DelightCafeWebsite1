@@ -24,21 +24,29 @@
 
 <main>
 
-<main>
-  <h1>Welcome to Our Cafe</h1>
-  <p>Discover our delicious menu and cozy atmosphere.</p>
+    <section class="hero">
+        <!-- Hidden heading needed for accessibility -->
+        <h2 class="visually-hidden">Hero Image</h2>
 
-  <!-- Example Home Banner Image -->
-  <section class="home-banner">
-    <img src="images/home-banner.jpg" alt="Cafe interior with coffee cups">
-  </section>
+        <picture>
+            <source srcset="images/hero/hero-1920.webp" media="(min-width: 1200px)">
+            <source srcset="images/hero/hero-960.jpg" media="(min-width: 600px)">
+            <img src="images/hero/hero-480.jpg"
+                 alt="Warm café interior with soft lighting and coffee counter">
+        </picture>
+    </section>
 
-  <!-- Optional Featured Gallery Preview -->
-  <h2>Featured Items</h2>
-  <section class="gallery-preview">
-    <img src="images/gallery1.jpg" alt="Cappuccino">
-    <img src="images/gallery2.jpg" alt="Chocolate Cake">
-    <img src="images/gallery4.jpg" alt="Croissants">
-  </section>
+    <section class="intro">
+        <h2>Welcome to Delight Café</h2>
+        <p>Enjoy handcrafted coffee, delicious desserts, and a warm atmosphere.  
+           Explore our menu, learn our story, and connect with us.</p>
+    </section>
+
 </main>
 
+<footer>
+    <p>© 2025 Delight Café. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
